@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 const HeroSection = () => {
     return (
-        <section class="relative w-full md:py-44 py-36 px-4">
+        <section class="relative w-full md:py-44 py-36 px-6">
             <div class="absolute inset-0 bg-green-600/5"></div>
             <div class="container">
-                <div class="grid md:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]">
+                <div class="grid md:grid-cols-12 grid-cols-1 items-center md:mt-10 gap-[50px] gap-y-20">
                     <div class="md:col-span-7">
                         <div class="md:mr-6">
                             <span class="text-green-400 text-lg font-medium">Mind Map  Marketing</span>
@@ -26,12 +26,7 @@ const HeroSection = () => {
                     <div class="md:col-span-5">
                         <div class="relative">
                             <img src="assets/marketing.png" alt="" />
-                            <div class="absolute bottom-2/4 translate-y-2/4 right-0 left-0 text-center">
-                                <a href="#!" data-type="youtube" data-id="yba7hPeTSjk"
-                                    class="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600">
-                                    <i class="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
-                                </a>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>
